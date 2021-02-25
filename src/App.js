@@ -80,7 +80,7 @@ function App() {
             <div>
               <img
                 className="has-shadow"
-                src={ rocketDoge}
+                src={ require("./images/doge-rocket.jpeg")}
                 // {
                 //     // process.env.PUBLIC_URL
                 //     require('./images/doge-rocket.jpeg')
