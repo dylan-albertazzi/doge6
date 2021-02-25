@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import rocketDoge from './images/doge-rocket.jpeg';
+import sound from './images/cash.mp3';
 import Amplify, { API, graphqlOperation } from 'aws-amplify';
 import awsExports from './aws-exports';
 
@@ -85,9 +86,13 @@ function App() {
                 height={504} />
             </div>
             </div>
-          </div>
+        </div>
+        <audio className="audio-element">
+          <source src={sound}></source>
+        </audio>
       </header>
     </div>
+    
   );
 }
 
