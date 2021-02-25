@@ -70,11 +70,20 @@ function App() {
                </h1>
                
                   <button tag="a" color="secondary" wideMobile onClick={updateDogePrice}>
-                    Doge 🚀
+                    <strong>Doge 🚀</strong>
                     </button>
                   
                 
-              </div>
+            </div>
+            <br/>
+            <div>
+              <img
+                className="has-shadow"
+                src={rocketDoge}
+                alt="Hero"
+                width={896}
+                height={504} />
+            </div>
             </div>
           </div>
       </header>
